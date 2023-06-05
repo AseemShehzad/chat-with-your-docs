@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    background: linear-gradient(145deg, #fff5f5, #f0ecff);
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+    max-width: 800px;
+    margin: 5vh auto;
+    background: linear-gradient(145deg, #f0ecff, #fff5f5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    overflow: hidden;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.msg-header, .msg-bottom {
+    padding: 10px;
+    background: #f1cff0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.msg-header h1 {
+    margin: 0;
+    color: #3c3c3c;
+    font-weight: 50;
+    align-items: center;
+    text-align: center;
+}
+
+.chats {
+    list-style: none;
+    margin: 10;
+    padding: 10;
+    height: 60vh; 
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+.msg-bottom {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #e6e3f2;
+}
+
+#messageText {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #f6f6f6;
+    color: #000000;
+    font-weight: 300;
+    width: 90%;
+    flex-grow: 1;
+}
+
+.btn-send {
+    padding: 10px 11px;
+    border-radius: 100px;
+    border: none;
+    background: #b4b4b4;
+    color: #e6e3f2;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: 500;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+.btn-send:hover {
+    background: #999999;
+}
+
+.msg-page {
+    list-style: none;
+    margin: 10;
+    padding: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-msg, .ai-msg {
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.user-msg {
+    background: #f8c1c1; /* light pink */
+    align-self: flex-end; 
+    max-width: 70%;
+}
+
+.ai-msg {
+    background: #c5c1f8; /* light purple */
+    align-self: flex-start;
+    max-width: 70%;
+}
