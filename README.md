@@ -37,7 +37,7 @@ uvicorn main:app --reload --port 9090
 This command will start a FastAPI server at http://localhost:9090.
 
 Your chatbot should look like this:
-![chatbot image](https://imgur.com/aNk0ffr)  
+![chatbot image](https://drive.google.com/file/d/1c5daYjRh18vo0fH7IZCCcVdgx61hsk_I/view?usp=sharing)  
 
 Now go to this URL to run the chatbot:
 
